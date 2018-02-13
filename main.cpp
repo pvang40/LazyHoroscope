@@ -17,8 +17,11 @@ int main()
   string word = first; 
   string letter = last;
   cout<<"Welcome, "<< word[0]<< "."<< letter[0]<< ". here is your fortune... " <<endl;
-  
-  //tell fortune
 
+  string lucky= first + last ; 
+ 
+  //tell fortune
+ 
+  cout<<"Your Lucky Number Is " << lucky.length()<<endl; 
   return 0;
 }
