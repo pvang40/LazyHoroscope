@@ -14,11 +14,10 @@ int main()
   cout<< "What is your last name?\n";
   cin>>last;
   
-  string word = first; 
-  string letter = last;
-  cout<<"Welcome, "<< word[0]<< "."<< letter[0]<< ". here is your fortune... " <<endl;
 
-  string lucky= first + last ; 
+  cout<<"Welcome, "<< first[0]<< "."<< last[0]<< ". here is your fortune... " <<endl;
+
+  string lucky = first + last; 
  
   //tell fortune
  
