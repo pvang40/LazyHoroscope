@@ -15,7 +15,7 @@ int main()
   cin>>last;
   
 
-  cout<<"Welcome, "<< first[0]<< "."<< last[0]<< "., here is your fortune... " <<endl;
+  cout<<"Welcome, "<< first[0]<< "."<< last[0]<< "., here is your fortune..." <<endl;
 
   int lucky = first.length(); 
  
